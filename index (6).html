@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Efemena Ikoyo-Eweto</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style (3).css" />
+</head>
+<body>
+
+  <nav>
+    <a href="#home" class="logo">Mena visuals<span>.</span></a>
+    <ul id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="hamburger"><span></span><span></span><span></span></button>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home">
+    <div class="container hero-flex">
+      <div class="hero-text">
+        <p class="label">Hello, I'm</p>
+        <h1>Efemena<br /><em>Ikoyo-Eweto</em></h1>
+        <p class="typed-wrap"><span id="typed"></span><span class="cursor"></span></p>
+        <p class="sub">Creative designer & front-end developer from Port Harcourt.</p>
+        <div class="btn-row">
+          <a href="#about" class="btn gold">About Me</a>
+          <a href="#contact" class="btn outline">Contact</a>
+        </div>
+        <div id="react-badge"></div>
+      </div>
+      <div class="photo-frame">
+        <img src="photo.jpg" alt="Efemena Ikoyo-Eweto" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <p class="label">About Me</p>
+      <h2>Who I Am</h2>
+      <div class="line"></div>
+      <div class="about-flex">
+        <div class="about-img">
+          <img src="photo.jpg" alt="Efemena" />
+        </div>
+        <div>
+          <p>I'm <strong>Efemena Ikoyo-Eweto</strong> from <strong>Okuovo, Delta State</strong>, raised in Port Harcourt, Rivers State. Currently a <strong>200-level IT student at FUTO</strong>.</p>
+          <p>I'm a graphic designer, UI/UX designer, and front-end developer. I love creating and designing. Outside of work, you'll find me on the tennis court.</p>
+          <div class="tags">
+            <span>Photoshop</span><span>Illustrator</span><span>Figma</span>
+            <span>HTML5</span><span>CSS</span><span>JavaScript</span><span>React</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <p class="label">Get In Touch</p>
+      <h2>Contact Me</h2>
+      <div class="line"></div>
+      <div class="contact-flex">
+        <div>
+          <a href="tel:+2348108699609" class="clink">+234 810 869 9609</a>
+          <a href="https://wa.me/2348108699609" class="clink" target="_blank">WhatsApp: 08108699609</a>
+          <div class="socials">
+            <a href="https://instagram.com/marty_mena" target="_blank">Instagram</a>
+            <a href="https://facebook.com/just_mena" target="_blank">Facebook</a>
+            <a href="https://linkedin.com/in/efemenaikoyo" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+        <form id="form">
+          <input type="text" id="fname" placeholder="Your Name" />
+          <input type="email" id="femail" placeholder="Email Address" />
+          <textarea id="fmsg" placeholder="Your message..."></textarea>
+          <button type="submit" class="btn gold">Send Message</button>
+          <p id="form-msg"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2025 <span>Mena visuals</span>. All rights reserved.</footer>
+
+  <script src="main (5).js"></script>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel" src="components (2).jsx"></script>
+</body>
+</html>
